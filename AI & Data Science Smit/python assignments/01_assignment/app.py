@@ -24,19 +24,19 @@ choice = int(input('enter the number of the operation you want to perform: '))
 if choice == 1:
     add = num1 + num2
     print(add)
-if choice == 2:
+elif choice == 2:
     sub = num1 - num2
     print(sub)
-if choice == 3:
+elif choice == 3:
     mul = num1 * num2
     print(mul)
-if choice == 4:
+elif choice == 4:
     div = num1 / num2
     print(div)
-if choice == 5:
+elif choice == 5:
     floorDiv = num1 // num2
     print(floorDiv)
-if choice == 6:
+elif choice == 6:
     exponential = num1 ** num2
     print(exponential)        
 
